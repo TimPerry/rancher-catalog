@@ -1,3 +1,9 @@
+.catalog:
+  name: Amazon Echo HA TV Controls
+  description: |
+    Home Automation System to control tv setup using amazon echo
+  version: 1.0
+  uuid: amazon-ha-tv-controls
 version: '2'
 services:
   amazon-echo-ha-bridge:
