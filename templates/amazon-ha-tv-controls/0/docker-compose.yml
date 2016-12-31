@@ -1,0 +1,11 @@
+version: '2'
+services:
+  amazon-echo-ha-bridge:
+    image: timkinbokeh/amazon-echo-ha-bridge
+    network_mode: host
+  tv-controls:
+    image: timkinbokeh/tv-controls
+    network_mode: host
+    volumes:
+    - /root/.ps4-wake.credentials.json:/root/.ps4-wake.credentials.json
+

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  amazon-echo-ha-bridge:
+    scale: 1
+    start_on_create: true
+  tv-controls:
+    scale: 1
+    start_on_create: true
+<Paste>
