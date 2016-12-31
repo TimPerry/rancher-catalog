@@ -9,7 +9,7 @@
       description: "The path to the ps4 wake credentials file, required by ps4-waker"
       label: "PS4 Waker Credentials Path"
       required: true
-      default: '/root/ps4-wake.credentials.json
+      default: '/root/ps4-wake.credentials.json'
       type: "string"
 version: '2'
 services:
