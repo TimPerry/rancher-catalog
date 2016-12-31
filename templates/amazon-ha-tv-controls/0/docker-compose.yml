@@ -7,5 +7,5 @@ services:
     image: timkinbokeh/tv-controls
     network_mode: host
     volumes:
-    - /root/.ps4-wake.credentials.json:/root/.ps4-wake.credentials.json
+    - ${ps4-creds-path}:/root/.ps4-wake.credentials.json
 

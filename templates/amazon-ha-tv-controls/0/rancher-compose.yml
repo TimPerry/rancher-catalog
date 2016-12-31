@@ -5,12 +5,12 @@
   version: 1.0
   uuid: amazon-ha-tv-controls
   questions:
-    - variable: "exo-scale"
-      description: "Number of exosphere nodes."
-      label: "Number of Exosphere Nodes:"
+    - variable: "ps4-creds-path"
+      description: "The path to the ps4 wake credentials file, required by ps4-waker"
+      label: "PS4 Waker Credentials Path"
       required: true
-      default: 1
-      type: "int"
+      default: '/root/ps4-wake.credentials.json
+      type: "string"
 version: '2'
 services:
   amazon-echo-ha-bridge:
