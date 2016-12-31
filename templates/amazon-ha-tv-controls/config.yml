@@ -1,5 +1,5 @@
 name: Amazon Echo HA TV Controls 
 description: |
   Home Automation System to control tv setup using amazon echo 
-version: 1.0.1
+version: 1.0.0
 category: "Home Automation"
