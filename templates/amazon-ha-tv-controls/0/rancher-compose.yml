@@ -5,7 +5,7 @@
   version: 1.0
   uuid: amazon-ha-tv-controls
   questions:
-    - variable: "ps4-creds-path"
+    - variable: "ps4_creds_path"
       description: "The path to the ps4 wake credentials file, required by ps4-waker"
       label: "PS4 Waker Credentials Path"
       required: true
