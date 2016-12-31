@@ -4,6 +4,13 @@
     Home Automation System to control tv setup using amazon echo
   version: 1.0
   uuid: amazon-ha-tv-controls
+  questions:
+    - variable: "exo-scale"
+      description: "Number of exosphere nodes."
+      label: "Number of Exosphere Nodes:"
+      required: true
+      default: 1
+      type: "int"
 version: '2'
 services:
   amazon-echo-ha-bridge:
@@ -12,4 +19,3 @@ services:
   tv-controls:
     scale: 1
     start_on_create: true
-<Paste>
